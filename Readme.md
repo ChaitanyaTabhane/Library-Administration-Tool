@@ -6,7 +6,7 @@ Welcome to the Library Administration Tool! This tool is designed to help manage
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://gitlab.stackroute.in/group20/lat_web.git
+git clone https://github.com/ChaitanyaTabhane/Library-Administration-Tool.git
 ```
 
 2. Change the directory to lat_web
