@@ -1,0 +1,135 @@
+.nav-link:hover{
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card{
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(41, 38, 75, 0.1);
+    border-radius: 10px;
+}
+
+
+.card-img-top{
+    width: 10rem;
+    height: 15rem;
+    padding-top: 15px;
+    box-shadow: 5px 5px 10px rgba(41, 38, 75, 0.1);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+
+  .navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.body{
+    font-family: Arial, sans-serif;
+    
+}
+.container{
+    width: 80%;
+}
+.container h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 19px 19px 0px 0px;
+    padding-left: 62px;
+    background: linear-gradient(to right, #01a3a4, #10ac84 );
+}
+
+.container1{
+    /* box-shadow:  5px 5px 5px 5px rgba(41, 38, 75, 0.1); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    border-radius: 21px;
+}
+#addBookForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heading{
+    display: flex;
+    padding: 30px 0px;
+}
+.heading .sec2{
+    font-size: small;
+    padding-left: 50%;
+    display: flex;
+
+}
+.heading .sec2 span{
+ margin-left: 10px;
+}
+
+.table{
+    
+        /* box-shadow:  5px 5px 5px 5px rgba(41, 38, 75, 0.1); */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+        border-radius: 21px;
+}
+
+#addMemberForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#addIssueForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#issueForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#addBookForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#addIssueForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#issueForm{
+    max-width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#editBookForm, #editMemberForm, #editIssueForm{
+    display: flex;
+        justify-content: center;
+}

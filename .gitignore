@@ -1,0 +1,10 @@
+# Ignore compiled binaries
+*.exe
+*.o
+
+# Ignore log files
+*.log
+
+# Ignore a specific directory
+/.vscode/
+/node_modules/

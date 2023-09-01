@@ -1,0 +1,103 @@
+<!-- issue_book.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Issue Book</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Include the navbar using JavaScript -->
+    <div id="navbarPlaceholder"></div>
+    <div class="container mt-5">
+      <h1 class="mb-4">Issue Book</h1>
+      <form id="issueForm">
+        <div class="mb-3" id="bookDetails"></div>
+
+        <div class="mb-3">
+          <label for="member" class="form-label">Select Member:</label>
+          <select id="member" name="member" class="form-select" required>
+            <!-- Populate this dropdown with member data from members.json using JavaScript -->
+          </select>
+        </div>
+
+        <!-- <div class="mb-3">
+          <label for="issueid" class="form-label">Issue ID:</label>
+          <input
+            type="text"
+            id="issueid"
+            name="issueid"
+            class="form-control"
+            required
+          />
+        </div> -->
+        <input type="hidden" id="issueid" name="issueid">
+
+        <div class="mb-3">
+          <label for="issueDate" class="form-label">Issue Date:</label>
+          <input
+            type="date"
+            id="issueDate"
+            name="issueDate"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="returnDate" class="form-label">Return Date:</label>
+          <input
+            type="date"
+            id="returnDate"
+            name="returnDate"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Issue Book</button>
+      </form>
+    </div>
+    <!-- Footer -->
+    <div id="footerPlaceholder"></div>
+    <!-- Add Bootstrap JS scripts (Popper.js and Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="issue.js"></script>
+    <script>
+      function logout() {
+        // Change the location to the login page
+        window.location.href = "login2.html";
+      }
+    </script>
+
+    <script>
+      // Load the navbar using JavaScript
+      var navbarXhr = new XMLHttpRequest();
+      navbarXhr.open("GET", "navbar.html", true);
+      navbarXhr.onreadystatechange = function () {
+        if (navbarXhr.readyState === 4 && navbarXhr.status === 200) {
+          document.getElementById("navbarPlaceholder").innerHTML =
+            navbarXhr.responseText;
+        }
+      };
+      navbarXhr.send();
+
+      // Load the footer using JavaScript
+      var footerXhr = new XMLHttpRequest();
+      footerXhr.open("GET", "footer.html", true);
+      footerXhr.onreadystatechange = function () {
+        if (footerXhr.readyState === 4 && footerXhr.status === 200) {
+          document.getElementById("footerPlaceholder").innerHTML =
+            footerXhr.responseText;
+        }
+      };
+      footerXhr.send();
+    </script>
+  </body>
+</html>

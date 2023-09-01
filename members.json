@@ -1,0 +1,53 @@
+{
+  "members": [
+    {
+      "name": "Chaitanya Tabhane",
+      "id": "002",
+      "phone": "9823423",
+      "date": "2023-08-16",
+      "status": "Active"
+    },
+    {
+      "name": "Shashank",
+      "id": "003",
+      "phone": "9823453423",
+      "date": "2022-08-12",
+      "status": "Active"
+    },
+    {
+      "name": "Mayur Awatade",
+      "id": "004",
+      "phone": "9823453423",
+      "date": "2023-07-6",
+      "status": "Active"
+    },
+    {
+      "name": "Priti Bhakre",
+      "id": "005",
+      "phone": "9223424",
+      "date": "2023-08-10",
+      "status": "Inactive"
+    },
+    {
+      "name": "Shruti Khanna",
+      "id": "008",
+      "phone": "98237347",
+      "date": "2023-08-08",
+      "status": "Inactive"
+    },
+    {
+      "name": "Dipanshu",
+      "phone": "9234287",
+      "date": "2023-08-24",
+      "status": "Active",
+      "id": "9"
+    },
+    {
+      "name": "Dipanshu R",
+      "phone": "92384273",
+      "date": "2023-08-22",
+      "status": "Active",
+      "id": "10"
+    }
+  ]
+}
